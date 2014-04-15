@@ -19,14 +19,7 @@ position: relative;
 min-height: 100%;
 }
 
-#content {
-display:block;
-background:rgba(255,255,255,.98);
-color:#333;
-box-shadow:0 3px 25px rgba(0,0,0,.2);
-border:1px solid rgba(0,0,0,.2);
-padding: 20px 10px 20px 10px;
-}
+
 
 .navbar-brand {
 font-family: 'Playfair Display', serif;
@@ -54,12 +47,26 @@ background-repeat:no-repeat;
 
 background-position:center;
 }
+modal-dialog{
+position: absolute;
+left: 50%;
+//now you must set a margin left under zero - value is a half width your window
+margin-left: -312px;
+// this same situation is with height - example
+height: 500px;
+top: 50%;
+margin-top: -250px;
+} 
 
 .navbar-brand {
 line-height: 60px;
 }
 
 @media ( min-width: 768px ) { 
+
+.container {
+padding:0;
+}
 .navbar > .container {
 text-align: center;
 }
@@ -72,6 +79,15 @@ width: auto;
 clear: none;
 }
 }
+#content {
+display:block;
+background:rgba(255,255,255,.98);
+color:#333;
+box-shadow:0 3px 25px rgba(0,0,0,.2);
+border:1px solid rgba(0,0,0,.2);
+padding: 20px 10px 20px 10px;
+}
+
 
 h1,
 h2,
@@ -124,6 +140,12 @@ line-height: 1.1;
 }
 
 @media ( max-width: 767px ) { 
+
+.container  {
+padding:0;
+margin:0;
+}
+
 .navbar {
 line-height: 1;
 min-height: 10px;
