@@ -169,6 +169,12 @@ min-height: 10px;
 padding-top: 0;
 margin: 0;
 vertical-align: bottom;
+text-align: center;
+}
+
+ .navbar-header.button {
+margin: 0 auto;	
+
 }
 navbar-toggle {
 border: 1px solid black;
