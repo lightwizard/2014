@@ -11,7 +11,7 @@ margin-top:  10px;
 background-color: RGB(243, 243, 243);
 background-image: url("/images/bg5.jpg");
 background-repeat: repeat;
-color: #999;
+color: #3c3a3a;
 
 }
 
@@ -99,7 +99,7 @@ clear: none;
 #content {
 display:block;
 background:rgba(255,255,255,.94);
-color:#333;
+color:#3c3a3a;
 box-shadow:0 3px 25px rgba(0,0,0,.2);
 border:1px solid rgba(0,0,0,.2);
 padding: 20px 10px 20px 10px;
@@ -125,6 +125,10 @@ line-height: 1.1;
 color:rgb(66, 139, 202);
 }
 
+h2 small {
+	color: rgb(66, 139, 202);
+}
+
 blockquote, blockquote p {
 font-family: 'Playfair Display', serif;
 font-size: 20px;
@@ -132,7 +136,7 @@ font-weight: 400;
 /* font-style:italic; */
 line-height: 1.8;
 border-left: none;
-color: #444;
+color: #555;
 }
 
 footer {
