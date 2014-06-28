@@ -36,9 +36,11 @@ display: inline-block;
 }
 .navbar-brand {
 font-family: 'Playfair Display', serif;
-font-size: 54px;
+font-size: 64px;
 margin-bottom: 30px;
-
+text-shadow:
+ -.020em .020em #fff6e6,
+    -.060em .060em #e7dcd7;
 }
 .navbar-brand a {
 
