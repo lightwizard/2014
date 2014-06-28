@@ -139,6 +139,12 @@ border-left: none;
 color: #555;
 }
 
+p {
+text-align:justify;
+text-justify:inter-word;
+}
+
+
 footer {
 font-family: Roboto, sans-serif;
 }
