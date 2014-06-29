@@ -22,9 +22,9 @@ min-height: 100%;
 
 
 #hidden {
-	height: 1px;
-	width: 1px;
-	left:  -99999;
+height: 1px;
+width: 1px;
+left:  -99999;
 }
 
 .navbar > .container {
@@ -126,7 +126,7 @@ color:rgb(66, 139, 202);
 }
 
 h2 small {
-	color: rgb(66, 139, 202);
+color: rgb(66, 139, 202);
 }
 
 blockquote, blockquote p {
