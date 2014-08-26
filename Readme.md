@@ -1,11 +1,10 @@
 # Ericlightwizard.com
 This is the compiled source code for http://ericlightwizard.com website
 
- # Changelog
 
+# Changelog
 
-
- ### Aug 26, 2014
+### Aug 26, 2014
  Fixed stray links in Portfolio section so thumbnails point to photos in respective sets
  Added a link to github source code on the credit page
 
@@ -27,5 +26,5 @@ Update background image for tablets and mobile devices
 Optimize images 
 Provide links to Flickr photostream 
 
- ### Apr 15,  2014
+### Apr 15,  2014
  Move the development branch to github
