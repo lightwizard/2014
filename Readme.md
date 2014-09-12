@@ -27,4 +27,4 @@ Optimize images
 Provide links to Flickr photostream   
 
 ### Apr 15,  2014
- Move the development branch to github  
+ Move the development branch to github 
